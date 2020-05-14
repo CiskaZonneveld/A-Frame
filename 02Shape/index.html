@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <a-scene background="color: #fff">
+      <a-box id="myBox"
+        width="2"
+        height="1"
+        depth="2"
+        color="yellow" 
+        position="0 2 -10"
+        shadow>
+      </a-box>
+        
+        <a-circle id="myCircle" color="cornflowerblue" radius="0.5" position="0 0 0" rotation="-90 0 0">
+      </a-circle>
+        
+       <a-ring color="teal" radius-inner="1" radius-outer="2" position="0 2 -3"></a-ring>
+        <a-cone color="tomato" radius-bottom="2" radius-top="0.2" position="0 3 -6"></a-cone>
+        <a-cylinder color="yellow" theta-start="50" theta-length="280" side="double" position="0 3 -7"></a-cylinder>
+    </a-scene>
+    
+  </body>
+</html>
+
+<!--eerste getal links rechts X
+tweede omhhoog omlaag Y
+derde getal verder weg of dichterbij Z-->
