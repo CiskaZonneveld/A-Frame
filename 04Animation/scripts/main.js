@@ -2,7 +2,7 @@
 
  // changing individual properties with code and using setInterval
 // var rotationSpeed = -0.01;
-var yas = 1;
+var yas = 8;
 var xas = -0.05;
 var zas = 0.05;
  var myOtherBox = document.getElementById('myOtherBox');
